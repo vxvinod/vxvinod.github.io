@@ -45,7 +45,7 @@ a:visited { color: #a0a; }
 
 .posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
+  font-family: "Droid Serif","Times New Roman",serif;
   font-size: 80%;
 }
 
@@ -66,24 +66,33 @@ a:visited { color: #a0a; }
 .header a {
   font-weight: bold;
   text-decoration: none;
+
 }
+
 
 .title {
   display: inline-block;
   margin-bottom: 2em;
+  
+  font-size: 2.8rem;
+  font-weight: bold;
+  letter-spacing: -2px;
+  line-height: 1.25;
+  margin: 1.25em 0 0.25em;
 }
 
 .title a {
-  color: #a00;
+  color: #08C1C3;
 }
 
 .title a:hover {
-  color: #000;
+  color:#08C1C3 ;
 }
 
 .header a.extra {
   color: #aaa;
   margin-left: 1em;
+  font-size: 1.5em;
 }
 
 .header a.extra:hover {
@@ -157,4 +166,54 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.tagline{
+  color: #A5A5A5;
+    font-family: "Droid Serif","Times New Roman",serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0 0 1em;
+}
+
+.posttitle ,.pagetitle{
+  text-decoration: none;
+  color: #333333;
+    font-family: "Droid Serif","Times New Roman",serif;
+    font-size: 2.8rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+}
+.pagetitle{
+  line-height: 2;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #08C1C3;
+    font-family: "Droid Serif","Times New Roman",serif;
+    
+}
+
+.postdate{
+   font-size: 1.3rem;
+   color: #AAAAAA;
+
+
+}
+
+.postexcerpt{
+  margin-bottom: 1.5em;
+  font-family: "Droid Serif","Times New Roman",serif;
+  font-size: 1rem; 
+}
+p{
+   margin-bottom: 1.5em;
+}
+.pagedate{
+   font-size: 1rem;
+   color: #AAAAAA;
+
 }

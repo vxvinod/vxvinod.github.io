@@ -1,14 +1,20 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Vinod's erudition
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1></h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-      	{{post.excerpt}}</li>
+      <!--<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+      	{{post.excerpt}}</li> -->
+      	<li><a href="{{post.url}}"><p class ="posttitle">{{post.title}}</p></a>
+      		<p class="postdate"><span>Posted on <a href="{{post.url}}">{{post.date |  date: '%B %d, %Y'}}</a></span></p>
+      		<div class ="postexcerpt">
+            {{post.excerpt}}
+          </div>
+      	</li>
     {% endfor %}
   </ul>
 </div>
