@@ -41,10 +41,10 @@ puts vcet.age
 {% endhighlight %}
 
 ####Explanation:
-*create an empty hash named @my_hash = {}
-*key name is gonna be dynamic so we need to implement method_missing() to handle the unknown method and the arguments(name will contain method name and args[0] will contain the value)
-*if the method name has a pattern of ‘=’ then method name will be passed as a key in to the hash and value assigned to method will be value of the key in hash.
-*if the method is not in such pattern then method name will be passed as a key in to hash and value will be null.
-*here initialize ‘vcet’ object for MyStruct class and call vcet.nick=”Vinod”
-*here nick= will be the method called and method_missing() will be called because it is an unknown method and (nick= and “Vinod”) will be passed as an argument.
+1.create an empty hash named @my_hash = {}
+2.key name is gonna be dynamic so we need to implement method_missing() to handle the unknown method and the arguments(name will contain method name and args[0] will contain the value)
+3.if the method name has a pattern of ‘=’ then method name will be passed as a key in to the hash and value assigned to method will be value of the key in hash.
+4.if the method is not in such pattern then method name will be passed as a key in to hash and value will be null.
+5.here initialize ‘vcet’ object for MyStruct class and call vcet.nick=”Vinod”
+5.here nick= will be the method called and method_missing() will be called because it is an unknown method and (nick= and “Vinod”) will be passed as an argument.
 *hash will be defined as my_hash[nick]=”Vinod”. 
