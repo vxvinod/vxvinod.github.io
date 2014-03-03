@@ -2,13 +2,13 @@
 layout: post
 title:  "Metaprogramming Ruby fantabulous start"
 date:   2014-01-31 
-categories: Ruby
-excerpt:Oh my god!!!!!!! how I missed this book “Metaprogramming Ruby” the name was scarring me oh this may be the advanced version of ruby ,I should not read this until I am good enough in ruby.I am damn sure that i am not still beginner in ruby.come lets dive in.
+excerpt: "Oh my god!!!!!!! how I missed this book “Metaprogramming Ruby” the name was scarring me oh this may be the advanced version of ruby ,I should not read this until I am good enough in ruby.I am damn sure that i am not still beginner in ruby.come lets dive in."
 ---
 
 ####Metaprogramming Ruby
 
 Oh my god!!!!!!! how I missed this book “Metaprogramming Ruby” the name was scarring me oh this may be the advanced version of ruby ,I should not read this until I am good enough in ruby but the Mr Paulo parretto made me clear by asking one question in introduction that made my mind that I am not still beginner in ruby that question was simple “how do you iterate an array ?” thank god I answered using “each” method and you may be surprised what’s in this to get surprised but yes there is big thing to get surprised and that is “if you answer using for loop array iteration can be done then you are not comfortable with ruby go back and kick the basics ass of ruby and come back ” and on other side “if you would have answered using “each” method array iteration can be done then you are not still beginner and you are the best to start kicking this book” .i hope now you would have concluded why I got surprised and excited.
+
 
 After a fantabulous introduction of Metaprogramming Ruby, now its time to start the ride towards the wonderful island of Ruby and I started reading the first lesson ”Monday The Object Model” believe I was not having even one percent of feeling that I am reading a technical book. It was like a story revolving between Bob and Bill .where they both were involved in refactoring some library management system and here Bob is new to Ruby and Bill is a Ruby expert and most of the times Bill will be taking lead and teach Bob how to optimize aaahh the good word will be refactoring the code by teaching meta programming and Bill also demonstrates using some basic drawing for describing the hierarchy of Class and its super class as it goes on. come lets have a quick discussion about what I have learnt from the chapter1 “Monday The Object Model”.
 
@@ -34,7 +34,8 @@ end
 end
 t=Test.new()
 #puts t.old_method([2,1,4,3],2,5)
-puts [2,1,3,4].element_replace(2,5){% endhighlight %}
+puts [2,1,3,4].element_replace(2,5)
+{% endhighlight %}
 here in above example –
 *old_method in class Test is ordinary way of defining a method which will replace the elements in the array.
 *here every time we need to keep in not where the method is added and instead we can open the existing class Array and insert a method to perform the action.
