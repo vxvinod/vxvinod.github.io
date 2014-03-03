@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Ghost Methods magic of Metaprogramming"
