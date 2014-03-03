@@ -23,7 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+p { margin: 1em 0;
+  margin-bottom: 1.5em;
+   font-family: "Droid Serif","Times New Roman",serif;
+   font-size: 1.3rem; }
 
 a         { color: #00a; }
 a:hover   { color: #000; }
@@ -206,9 +209,7 @@ a:hover, a:visited, a:link, a:active
   margin-bottom: 1.5em;
   font-size: 1rem; 
 }
-p{
-   margin-bottom: 1.5em;
-}
+
 .pagedate{
    font-size: 1rem;
    color: #AAAAAA;

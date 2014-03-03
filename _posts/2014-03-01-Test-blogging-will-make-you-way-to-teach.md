@@ -2,7 +2,9 @@
 layout: post
 title: "Test bloogin will make you to become a tutor"
 date: 2014-3-01
-desc:"hello"
+desc:"hellofdgdgdfg
+ddgdfgdfgdfgdfg
+dfgdfgdfg"
 ---
 
 Ruby on Rails, often simply Rails, is an open source web application framework which runs via the Ruby programming language. It is a full-stack framework: it allows creating pages and applications that gather information from the web server, talk to or query the database, and render templates out of the box. As a result, Rails features a routing system that is independent of the web server.
