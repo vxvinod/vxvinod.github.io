@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Dynamic proxy acts bridge for unknown methods"
