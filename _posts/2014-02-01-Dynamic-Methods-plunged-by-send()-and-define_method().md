@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dynamic Methods plunged by send() and define_method()"
-date:   2014-02"-01
+date:   2014-02-01
 desc: "I am happy to write my next post on Dynamic Methods  in metaprogramming on very next day to the last post on Chapter 1 .I will be short and crisp to explain about how methods are dynamically created in Ruby in run time."
 ---
 
