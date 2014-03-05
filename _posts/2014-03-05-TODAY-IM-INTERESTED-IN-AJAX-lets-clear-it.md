@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TODAY IM INTERESTED IN AJAX,lets clear it"
+title:  "TODAY IM INTERESTED IN AJAX lets clear it"
 date:   2014-03-05
 desc: "Ajax is for today lets clear it off and move ahead"
 ---
