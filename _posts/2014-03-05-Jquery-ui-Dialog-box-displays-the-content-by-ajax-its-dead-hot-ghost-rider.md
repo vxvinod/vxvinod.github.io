@@ -2,7 +2,7 @@
 layout: post
 title:  "Jquery ui Dialog box displays the content by ajax its dead hot ghost rider"
 date:   2014-03-05 
-desc: "Jquery UI its mind blowing and stunning less code do more ,omg but i didnt expect it will do this much come lets explore the beauty of jquery wit h ajax"
+desc: "Jquery UI its mind blowing and stunning less code do more omg but i didnt expect it will do this much come lets explore the beauty of jquery wit ajax"
 ---
 
 At many times i was eager to learn ajax,yeah obviously the beauty of it is 
