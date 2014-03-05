@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dialog box displays the content by ajax by jquery UI,its dead hot"
+title:  "Dialog box displays the content by ajax by jquery UI its dead hot"
 date:   2014-02-05 
 desc: "Jquery UI its mind blowing and stunning less code do more ,omg but i didnt expect it will do this much come lets explore the beauty of jquery wit h ajax :)"
 ---
