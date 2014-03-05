@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "TODAY IM INTERESTED IN AJAX,lets clear it"
-date:   2014-01-31 
-desc: "Oh my god!!!!!!! how I missed this book “Metaprogramming Ruby” the name was scarring me oh this may be the advanced version of ruby ,I should not read this until I am good enough in ruby.I am damn sure that i am not still beginner in ruby.come lets dive in.cooool"
+date:   2014-03-05
+desc: "Ajax is for today lets clear it off and move ahead"
 ---
 ####AJAX Introduction:
 + AJAX - Asynchronous Javascript and XML.
