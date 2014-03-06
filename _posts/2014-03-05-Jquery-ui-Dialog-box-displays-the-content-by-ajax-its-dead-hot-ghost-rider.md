@@ -69,7 +69,7 @@ $("button#hitme").on('click',function(e){
 					$(this).find("h2").remove();
 				});
 
-{%%endhighlight}
+{%endhighlight%}
 
 Explanation:
 + $("#div1").dialog("option","title","Loading...").dialog("open"); --open the dialog box and set the title of it as Loading...
