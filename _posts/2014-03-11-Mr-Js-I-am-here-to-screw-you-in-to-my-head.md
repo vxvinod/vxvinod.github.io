@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mr Js I am here to screw you in to my head"
-date:   2014-01-31 
+date:   2014-03-11
 desc: "one day one javascript example will enrich my javascript knowledge start the game and fail and fail and fail to learn"
 ---
 
