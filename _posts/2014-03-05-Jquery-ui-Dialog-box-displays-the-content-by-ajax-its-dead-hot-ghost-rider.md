@@ -17,7 +17,7 @@ that is jquery.
 ####Options	Default value	Usage
 + **autoOpen**	 true	Shows the dialog as soon as the dialog() method is called when set to true.
 
-+ **bgiframe**	false -- Creates an <iframe> shim to prevent <select> elements showing through the dialog in IE6 (at present the bgiframe plugin is required). We'll look at this option in more detail shortly. This plugin is due to be retired in version 1.8 of the library and will be replaced by the new stackfix component.
++ **bgiframe**	false -- Creates an iframe shim to prevent <select> elements showing through the dialog in IE6 (at present the bgiframe plugin is required). We'll look at this option in more detail shortly. This plugin is due to be retired in version 1.8 of the library and will be replaced by the new stackfix component.
 + **buttons**	{}	Supplies an object containing buttons to be used with the dialog. Each     
                                      property name becomes the text on the <button> element, and the value of each property is a callback function, which is executed when the button is clicked.
 + **closeOnEscape**	true -	If set to true, the dialog will close when the Esc key is pressed.
