@@ -71,7 +71,8 @@ $("button#hitme").on('click',function(e){
 
 {%endhighlight%}
 
-Explanation:
+###Explanation:
+
 + $("#div1").dialog("option","title","Loading...").dialog("open"); --open the dialog box and set the title of it as Loading...
 + $("#div1").load("what_i_am.txt",function -- load the content of text file and insert it in to doalog box.
 + $("#div1").dialog("option","title",$(this).find("h2").text()); -- find the h2 tag in the text file and put it as title of dialogg box.
