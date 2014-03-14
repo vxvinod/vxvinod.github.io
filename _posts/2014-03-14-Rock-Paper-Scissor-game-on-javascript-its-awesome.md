@@ -32,7 +32,7 @@ if (user_choice== comp_choice){
 		}
 
 
-{%highlight javascript}
+{%highlight javascript%}
 (function(){
 
 var choices=['rock','paper','scissor']; //collect items in a array
@@ -96,7 +96,7 @@ function displayResult(){
 
 ###HTML BELOW
 
-{%highlight javascript}
+{%highlight javascript%}
 <!DOCTYPE html>
 <html lang>
 <head>
@@ -151,7 +151,7 @@ function displayResult(){
 
 ####css below
 
-{%highlight javascript}
+{%highlight javascript%}
 body {
      text-align: center;
      font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
