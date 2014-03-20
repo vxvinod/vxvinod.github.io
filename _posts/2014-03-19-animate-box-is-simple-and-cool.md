@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "animate-box is simple and cool"
