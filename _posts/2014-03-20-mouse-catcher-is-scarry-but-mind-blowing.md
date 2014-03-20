@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "mouse catcher is scarry but mind-blowing"
-date:   2014-01-20
+date:   2014-03-20
 desc: "Today as a javascript oath i have created a mouse catcher application. where some couple of circles with various sizes will follow werever you move the mouse.in this i have learnt how to make the objects to move towards posinter,how to generate dynamic html"
 ---
 
