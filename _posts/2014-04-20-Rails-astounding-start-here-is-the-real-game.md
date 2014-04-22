@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Rails astounding start here is the real game"
-date:   2014-01-31 
-desc: 
-Sorry guys for not posting my learning as i was collecting the the things made the time wipe out of my eyes here we start the Rails with View part been discussed.
+date:   2014-04-20 
+desc: "Sorry guys for not posting my learning as i was collecting the the things made the time wipe out of my eyes here we start the Rails with View part been discussed.""
 
 ---
 
