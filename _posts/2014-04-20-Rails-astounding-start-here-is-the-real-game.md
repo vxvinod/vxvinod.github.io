@@ -35,7 +35,7 @@ ERB(Embedded Ruby) is a special way of executing ruby code inside HTML .
 
 ####Example
 
-{%highlight ruby %}
+{%highlight ruby%}
 
     <% if current_user.signed_in? %>
       <ul>
@@ -46,7 +46,8 @@ ERB(Embedded Ruby) is a special way of executing ruby code inside HTML .
     <% else %>
       <strong>You must sign in!</strong>
     <% end %>
-{% endhighlight %}
+
+{%endhighlight%}
 
 In the code above, if the user is signed in it will actually render to the web something like:
 
