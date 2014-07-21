@@ -12,16 +12,20 @@ Have you noticed while playing in facebook with your friends by commenting about
 lets be crisp about how a comment is been loaded instantly without page load.when i was watching railscasts he was explaining with simple content management system which was inherited from 'polymorphic association topic' thank god i have compelted that just two days ago it was bit easy for me to praactice. here we go how to implement instant loading.
 
 ###Steps to Implement :
-    + when full dom is loaded, check if any comments is available and if it is then call simpleTimeout function which calls the function after particular time. 
+    + when full dom is loaded, check if any comments is available and if it is then call simpleTimeout function which calls
+    the function after particular time. 
     setTimeout(this.request, 5000);
     
     + In that callback function call the ajax request which gets the new comments and updates that in to html.
     
-    + in get method url is fetched from data-url take which is assigned to article_comments_url(@article) this tells that fetch the comments for that particular post comment alone.
+    + in get method url is fetched from data-url take which is assigned to article_comments_url(@article) this tells that 
+    fetch the comments for that particular post comment alone.
     
-    + and in Comment controller index action will be called and in that render the comments partial and after that again call the same function so that it will go like recursive function. so what happens is for every 5 seconds the comments partial will get updated.
+    + and in Comment controller index action will be called and in that render the comments partial and after that again 
+    call the same function so that it will go like recursive function. so what happens is for every 5 seconds the comments partial will get updated.
     
-    + in order to avoid fully loading the comment field we can make it more effecient by just appending the latest comment that can be done using assigning last comment by id and check whether if any comments available more than that id then append it to comments view.
+    + in order to avoid fully loading the comment field we can make it more effecient by just appending the latest comment
+    that can be done using assigning last comment by id and check whether if any comments available more than that id then append it to comments view.
     
 ###code
 
