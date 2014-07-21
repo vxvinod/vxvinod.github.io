@@ -61,4 +61,4 @@ in controller need to specify that respond to ajax request
       format.js
       format.html
     end
-{%endhiglight%}
+{%endhighlight%}
