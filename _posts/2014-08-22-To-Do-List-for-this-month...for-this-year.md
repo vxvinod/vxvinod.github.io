@@ -26,7 +26,7 @@ Plan for 2014:
 --------------
 * Complete my Dream project and make it live.
 * Mastering in Ruby,Rails,Javascript.
-* Developed application using Nodejs
+* Develop application using Nodejs
 * Should have Given atleast 5 speeches in Toast master.
 * Reduce my weight by 10kg.
 
