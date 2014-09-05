@@ -28,7 +28,7 @@ Plan for 2014:
 * Mastering in Ruby,Rails,Javascript.
 * Develop application using Nodejs
 * Should have Given atleast 5 speeches in Toast master.
-* Reduce my weight by 10kg.
+* Reduce my weight by 10kgs.
 
 
 > Aim high so that your expectation will go up and you will start working towards it in faster pace.
