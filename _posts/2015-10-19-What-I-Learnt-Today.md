@@ -1,32 +1,42 @@
 ---
 layout: post
-title:  "What I Learnt Today"
-date:   2015-10-19 
-desc: "Time has come to exercise my brain with Ruby and Javascript. I have taken a oath that lean daily about anything and post a blog post about it. no matter about size of the content event it may be 2 lines. each and every drop collected from today will be an ocean soon. so here it goes today getting started from CoderByte. so daily i am going to solve a ruby puzzle from easy level moving to intermediate and then to complex. hope this will help me to gain more knowledge."
+title:  "What I Learnt Today-20-10-2015"
+date:   2015-10-20 
+desc: "Today with my fresh brain i started solving letter change puzzle. it was really challenging and learnt many things"
 ---
 
-####Daily Exercise my brain
+####What I Learnt Today
+Today with my fresh brain i started solving letter change puzzle. it was really challenging and learnt many things.
 
-Time has come to exercise my brain with Ruby and Javascript. I have taken a oath that lean daily about anything and post a blog post about it. no matter about size of the content event it may be 2 lines. each and every drop collected from today will be an ocean soon. so here it goes today getting started from CoderByte. so daily i am going to solve a ruby puzzle from easy level moving to intermediate and then to complex. hope this will help me to gain more knowledge.
-
-This is my first challenge to start from easy level. hope this journey will go till i reach my destiny.
+###puzzle:
+Have the function LetterChanges(str) take the str parameter being passed and modify it using the following algorithm. Replace every letter in the string with the letter following it in the alphabet (ie. c becomes d, z becomes a). Then capitalize every vowel in this new string (a, e, i, o, u) and finally return this modified string.
 
 {%highlight ruby%}
-def FirstReverse(str)
-  # code goes here
-  val = str.split('')
-  str=[]
-  val.each{|x| str.unshift(x)}
-  return str.join 
+def LetterChanges(str)
+   alph = %w{a b c d e f g h i j k l m n o p q r s t u v}
+   vowel = 'aeiou'
+   str = str.split('')
+   str.each_with_index do |x, str_index|
+      alph.each_with_index do |alp, alph_index|
+         if (alp.eql? x)
+            str[str_index] = alph[alph_index+1] 
+            break
+         end
+      end
+      str[str_index].upcase! if (vowel.include? str[str_index])
+   end
+   # code goes here
+   return str.join 
          
 end
    
 # keep this function call here 
 # to see how to enter arguments in Ruby scroll down   
-puts FirstReverse(STDIN.gets) 
+puts LetterChanges(STDIN.gets)  
+
 {%endhighlight%}
 
-####Unshift can do..
+Note:
 
-Above problem is simple reverse program without using inbuilt function. from that i have learnt that 'unshift' method will insert value at beginning of array.
-
+ord() - returns the code point of the character.
+'a'.ord - 97
