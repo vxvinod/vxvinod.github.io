@@ -19,7 +19,7 @@ desc: "The heart of docker is the image we build using dockerfile and we are her
 #### Docker file
 Docker file is a file which we can specify the instruction and its argument to build a image. Some of the instructions are RUN, COPY, ENTRYPOINT, CMD.
 #### Docker file for flash application
-
+{%highlight docker%}
 >> From Ubuntu
 >>Run apt-get update
 >>RUN apt-get install python
@@ -27,7 +27,7 @@ Docker file is a file which we can specify the instruction and its argument to b
 >>RUN pip install flask-mysql
 >>COPY . /opt/source-code
 >>ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run
-
+{%endhighlight%}
 #### Docker Image build command
 >>**docker build Dockerfile -t image_name**
 Above command build docker image as mentioned in Dockerfile and name it as docker image name mentioned.
