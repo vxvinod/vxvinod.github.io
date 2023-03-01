@@ -42,7 +42,7 @@ result:
          -	db
          -	redis
 
-{%highlight%}
+{%endhighlight%}
 
 ####Docker compose version 2 – links will be automaticalluy made.
 {%highlight docker%}
