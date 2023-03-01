@@ -18,7 +18,7 @@ desc: "I am happy to learn about docker compose and link the services with its p
 
 --link will deprecating with advanced configuration. docker-compose gives good control over links and network config.
 ### docker-compose version: 1
-{%highlight%}
+{%highlight docker%}
 
  redis:
    image: redis
@@ -38,14 +38,14 @@ result:
 -	db
  worker:
        image: worker
-       lniks:
--	db
--	-redis
+       links:
+         -	db
+         -	redis
 
 {%highlight%}
 
 ####Docker compose version 2 – links will be automaticalluy made.
-{%highlight%}
+{%highligh dockert%}
  version: 2
  services:
        redis:
@@ -76,4 +76,4 @@ result:
            front-end:
           back-end:
 
-{%endhghlight%}
+{%endhighlight%}
