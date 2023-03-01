@@ -45,7 +45,7 @@ result:
 {%highlight%}
 
 ####Docker compose version 2 – links will be automaticalluy made.
-{%highligh dockert%}
+{%highlight docker%}
  version: 2
  services:
        redis:
