@@ -11,13 +11,13 @@ desc: "I am happy to learn about docker compose and link the services with its p
  once docker-compose.yml is ready *docker-compose up* simple command will bring all the mentioned service up.
 
 
-###Link the Container:
+#### Link the Container:
  Each services are independent and it is necessary to link the services to have better communciation.
 *docker run -d –name =vote -p 5000:80 –link redis:redis voting-app*
  It creates entry in voting app container /etc/hosts redis and internal ip of redis ccontainer.
 
 --link will deprecating with advanced configuration. docker-compose gives good control over links and network config.
-### docker-compose version: 1
+#### docker-compose version: 1
 {%highlight docker%}
 
  redis:
@@ -44,7 +44,8 @@ result:
 
 {%endhighlight%}
 
-####Docker compose version 2 – links will be automaticalluy made.
+###Docker compose version 2 
+links will be automatically made.
 {%highlight docker%}
  version: 2
  services:
