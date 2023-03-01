@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Docker Compose, bundle up service and magic things will happen automatically"
+title:  Docker Compose, bundle up service and magic things will happen automatically
 date:   2023-03-01
 desc: "I am happy to learn about docker compose and link the services with its powerful options all the magic things happens with simple commands. Lets start our learning with it."
 ---
