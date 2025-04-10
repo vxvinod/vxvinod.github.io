@@ -74,7 +74,7 @@ Data pattern understanding - predic future prices.
 
 - Ideal for **question answering** from documents, websites, or databases.
 
- **How RAG works**
+ ### How RAG works
   ```
            [ User Query ]
                |
@@ -116,7 +116,7 @@ Data pattern understanding - predic future prices.
     
 -   React to feedback or environmental changes.
   
-  **How AI AGENTS WORK**
+  ### How AI AGENTS WORK
   
 ```sh
 
@@ -154,7 +154,7 @@ Data pattern understanding - predic future prices.
 
 -  **Agentic AI**: LLM + Tools + Memory + Multi-step Reasoning
 
--  **RAG+Agents**:
+-  **RAG+Agents:**
 
 - Retrieve relevant knowledge
 
@@ -166,18 +166,18 @@ Data pattern understanding - predic future prices.
 
   This is the **combo** of **Retrieval-Augmented Generation (RAG)** and **Agentic AI** — one of the most powerful ways to build intelligent assistants.
 
-### ⚡ What It Means:
+###  What It Means:
 
 -   **RAG handles the “what to say”**: Retrieves relevant knowledge to ground the agent in factual, domain-specific data.
     
 -   **The Agent handles the “what to do”**: Uses the retrieved info to reason, plan, and act — like using tools, updating databases, or automating workflows.
     
 
-### 🔧 Example Use Case: Web App Test Automation Agent
+###  Example Use Case: Web App Test Automation Agent
 
 > “Check all user flows in our web app, report broken paths, and open tickets.”
 
-**With RAG+Agents:**
+### With RAG+Agents:
 
 -   RAG fetches test plans, user stories, bug history
     
@@ -192,14 +192,14 @@ Data pattern understanding - predic future prices.
 
 ## Why RAG + Agents Work So Well Together
 
-**RAG**
+### RAG
 
 - Provides **knowledge**
 - Context-aware responses
 - Great for question answering
 - Pulls live or private data
 
-**Agent**
+### Agent
 
 - Provides **action**
  - Goal-driven behavior
