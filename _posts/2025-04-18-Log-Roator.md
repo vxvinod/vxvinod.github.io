@@ -78,16 +78,6 @@ if __name__ == '__main__':
 - **Automatically creates output directory** (`rotated_logs/`).
 - **Prints a summary** of how many lines were written per date.
 
----
-
-## Enhancements You Can Try
-
-- Add CLI arguments using `argparse`
-- Compress rotated logs
-- Filter by log levels (e.g., only `[ERROR]` logs)
-- Support custom log formats
-
----
 
 ## Conclusion
 
