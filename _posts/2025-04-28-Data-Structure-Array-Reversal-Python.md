@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data Structure Reversal Array - Python"
-date:   2025-04-04 
+date:   2025-04-28
 desc: "I need to excercise my brain with python daily with DSA problem solving challenge and today is with Array reversal problem. Its quite easy. Good start with Hackerrank"
 ---
 # Reverse an Array - My First Data Structure Problem on HackerRank!
